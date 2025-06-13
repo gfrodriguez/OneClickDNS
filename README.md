@@ -27,4 +27,5 @@ Aplicación portable que simplifica la configuración de DNS para mejorar privac
 ## 🚀 Compilación
 Requisitos: Python 3.9+ y PyInstaller
 ```bash
+pip install -r requirements.txt
 installer\build_installer.bat
