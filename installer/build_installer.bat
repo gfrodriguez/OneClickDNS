@@ -4,7 +4,7 @@ echo ==============================
 echo Compilando ejecutable OneClickDNS...
 echo ==============================
 
-pyinstaller --onefile --windowed --icon=..\assets\icons\icon.ico --name OneClickDNS --distpath ..\dist ..\src\main.py
+pyinstaller --onefile --windowed --icon=..\assets\icons\icon.ico --name OneClickDNS --distpath ..\dist --add-data "..\assets\icons;assets/icons" ..\src\main.py
 
 if %errorlevel% neq 0 (
     echo Error durante la compilación de PyInstaller
