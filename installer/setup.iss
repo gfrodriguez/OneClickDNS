@@ -3,8 +3,8 @@
 
 [Setup]
 AppName=OneClickDNS
-AppVersion=1.0.0
-AppPublisher=Tu Nombre o Empresa
+AppVersion=1.0.1
+AppPublisher=gfrodriguez
 AppPublisherURL=https://github.com/gfrodriguez/OneClickDNS
 AppSupportURL=https://github.com/gfrodriguez/OneClickDNS/issues
 AppUpdatesURL=https://github.com/gfrodriguez/OneClickDNS/releases
